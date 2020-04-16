@@ -56,7 +56,7 @@ int main() {
 	freopen("output.txt", "w", stdout);
 #endif
 
-	int in[] = {4, 5, 7};
+	int in[] = {4, 5, 7, 3, 1};
 	int n = sizeof(in) / sizeof(in[0]);
 	vector<Node *> trees = getTrees(in, 0, n - 1);
 
